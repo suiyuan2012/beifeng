@@ -24,7 +24,7 @@ tmux attach-session -t my1
 
 ubuntu18.04 ARM 官方原版完整救援包（用户名：root , 密码：CNBoy.org） 
 
-wget --no-check-certificate https://github.com/honorcnboy/BlogDatas/releases/download/OracleRescueKit/ubuntu18.04.arm.img.gz 
+wget --no-check-certificate https://github.com/suiyuan2012/beifeng/releases/download/v1.1/ubuntu18.04.arm.img.gz 
 
 gzip -dc /root/ubuntu18.04.arm.img.gz | dd of=/dev/sdb
 
@@ -34,7 +34,7 @@ gzip -dc /root/ubuntu18.04.arm.img.gz | dd of=/dev/sdb
 
 ubuntu18.04 AMD 官方原版完整救援包（用户名：root , 密码：CNBoy.org） 
 
-wget --no-check-certificate https://github.com/honorcnboy/BlogDatas/releases/download/OracleRescueKit/ubuntu18.04.amd.img.gz 
+wget --no-check-certificate https://github.com/suiyuan2012/beifeng/releases/download/v1.1/ubuntu18.04.amd.img.gz 
 
 gzip -dc /root/ubuntu18.04.amd.img.gz | dd of=/dev/sdb
 
@@ -44,7 +44,7 @@ gzip -dc /root/ubuntu18.04.amd.img.gz | dd of=/dev/sdb
 
 debian10 ARM 网络精简救援包（用户名：root , 密码：10086.fit） 
 
-wget --no-check-certificate https://github.com/honorcnboy/BlogDatas/releases/download/OracleRescueKit/dabian10.arm.img.gz 
+wget --no-check-certificate https://github.com/suiyuan2012/beifeng/releases/download/v1.1/dabian10.arm.img.gz 
 
 gzip -dc /root/dabian10.arm.img.gz | dd of=/dev/sdb
 
